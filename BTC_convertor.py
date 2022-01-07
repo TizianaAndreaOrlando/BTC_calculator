@@ -1,5 +1,5 @@
 #Definimos la función "Calculadora".Todos los datos estan en USD exceptuando por la salida final representada en BTC
-def calculadora(C_0,BTC_price):
+def calculator(C_0,BTC_price):
     value1 = str(C_0/BTC_price)         #Regla de 3; nos da el valor en moneda por capital inicial invertido (C_0)
     value1 = value1 + " " + moneda
     print(f"\nUsted tiene: {value1}")
@@ -14,7 +14,7 @@ BTC_price= float(input("Ingrese el precio de BTCxUSD ")) #Trabajar en API's para
 if BTC_price == 0:
     exit          #En el caso de que nos de un valor = 0, el programa se cierra.
 else:
-    calculadora(C_0,BTC_price)
+    calculator(C_0,BTC_price)
 value = (C_0/BTC_price)        #La defino como variable global y así poder usarla en otras funciones
 
 sumary = {"moneda": moneda,   #Creamos un diccionario para poder resumir al final del codigo nuestros datos. 
@@ -26,7 +26,7 @@ sumary = {"moneda": moneda,   #Creamos un diccionario para poder resumir al fina
 #************* ***************** **************** ********************* 
 print("\n************* **************** CALCULO DE RENTABILIDAD **************** *********************\n")         
 
-def rentabilidad():
+def profitableness():
     
     """Esta función nos permite ingresar una rentabilidad estimada y ver a que valor en USD debe llegar BTC 
     para lograr dicho objetivo.
@@ -53,7 +53,7 @@ def rentabilidad():
     sumary["Ganancia"] = profit
         
     
-rentabilidad()
+profitableness()
 
 print("Datos finales:\n ",sumary)
 
