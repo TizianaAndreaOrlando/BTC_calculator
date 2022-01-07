@@ -17,7 +17,7 @@ else:
     calculator(C_0,BTC_price)
 value = (C_0/BTC_price)        #La defino como variable global y así poder usarla en otras funciones
 
-sumary = {"moneda": moneda,   #Creamos un diccionario para poder resumir al final del codigo nuestros datos. 
+summary = {"moneda": moneda,   #Creamos un diccionario para poder resumir al final del codigo nuestros datos. 
           "Monto inicial": C_0,
           "Precio BTC inicial": BTC_price,
           "Cant. BTC en posesión" : value,
@@ -48,14 +48,14 @@ def profitableness():
     profit = int(dollar_blue*absolut_value)
     print(f"\nUsted obtuvo una ganancia de {profit}$ pesos Argentinos y posee unos {value3}$ pesos en total.\n")
     
-    sumary["Capital final"] = C_f
-    sumary["Cotización dolar"] = dollar_blue
-    sumary["Ganancia"] = profit
+    summary["Capital final"] = C_f
+    summary["Cotización dolar"] = dollar_blue
+    summary["Ganancia"] = profit
         
     
 profitableness()
 
-print("Datos finales:\n ",sumary)
+print("Datos finales:\n ",summary)
 
 
 #************* ***************** **************** *********************
