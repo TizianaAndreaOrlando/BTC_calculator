@@ -28,7 +28,7 @@ print("\n************* **************** CALCULO DE RENTABILIDAD ****************
 
 def profitableness():
     
-    """Esta función nos permite ingresar una rentabilidad estimada y ver a que valor en USD debe llegar BTC 
+    """Esta función nos permite ingresar una rentabilidad estimada y ver a que valor en USD debe llegar la moneda elegida 
     para lograr dicho objetivo.
     También, podemos convertir el capital final en USD a pesos Argentinos."""
     
