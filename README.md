@@ -1,8 +1,8 @@
 # BTC_calculator
 
-Note: This program was initially develope to calculte BTC price but I realized that you can use it for any criptocurrency you would like so.
+Note: This program was initially develope to calculte BTC price but I realized that you can use it for any cryptocurrency you would like so.
 In order to do that I change some parts of the code but in order to respect the original idea I decided to let the name "BTC calculator"
-in honor of the initial criptocurrency that motivated me to carry out the project.
+in honor of the initial cryptocurrency that motivated me to carry out the project.
 
 This code is headed to everybody who wants to invest in BTC and make fast calculations. 
 How does it work? You must know the current variables for investing in any security such as:
